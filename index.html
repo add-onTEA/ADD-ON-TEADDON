@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -48,6 +47,21 @@
     .links a:hover {
       background-color: #0056b3;
     }
+
+    .radio-player {
+      margin-top: 30px;
+    }
+
+    .radio-player h2 {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+      color: #ffffff;
+    }
+
+    .radio-player audio {
+      width: 300px;
+      outline: none;
+    }
   </style>
 </head>
 <body>
@@ -56,6 +70,15 @@
     <div class="links">
       <a href="https://kodish.space/Teaddon" target="_blank">Download</a>
       <a href="https://www.facebook.com/groups/freeddons" target="_blank">Grupo do Facebook</a>
+    </div>
+
+    <!-- Player de Rádio Web -->
+    <div class="radio-player">
+      <h2>Rádio Web</h2>
+      <audio controls>
+        <source src="https://stream.zeno.fm/6cvqc50b568uv" type="audio/mpeg">
+        Seu navegador não suporta o player de áudio.
+      </audio>
     </div>
   </div>
 </body>
